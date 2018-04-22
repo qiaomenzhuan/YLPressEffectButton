@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9585752F2089F0A30083A27A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9585752E2089F0A30083A27A /* AppDelegate.m */; };
+		958575322089F0A30083A27A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958575312089F0A30083A27A /* ViewController.m */; };
+		958575352089F0A30083A27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958575332089F0A30083A27A /* Main.storyboard */; };
+		958575372089F0A50083A27A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958575362089F0A50083A27A /* Assets.xcassets */; };
+		9585753A2089F0A50083A27A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958575382089F0A50083A27A /* LaunchScreen.storyboard */; };
+		9585753D2089F0A50083A27A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9585753C2089F0A50083A27A /* main.m */; };
+		958575472089F0A50083A27A /* YLPressEffectButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 958575462089F0A50083A27A /* YLPressEffectButtonTests.m */; };
+		958575522089F0A50083A27A /* YLPressEffectButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 958575512089F0A50083A27A /* YLPressEffectButtonUITests.m */; };
+		958575612089FB5D0083A27A /* myTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 958575602089FB5D0083A27A /* myTableViewCell.m */; };
+		958575642089FFC30083A27A /* YLPressEffectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 958575632089FFC30083A27A /* YLPressEffectButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		958575432089F0A50083A27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958575222089F0A30083A27A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 958575292089F0A30083A27A;
+			remoteInfo = YLPressEffectButton;
+		};
+		9585754E2089F0A50083A27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958575222089F0A30083A27A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 958575292089F0A30083A27A;
+			remoteInfo = YLPressEffectButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9585752A2089F0A30083A27A /* YLPressEffectButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLPressEffectButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9585752D2089F0A30083A27A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9585752E2089F0A30083A27A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		958575302089F0A30083A27A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		958575312089F0A30083A27A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		958575342089F0A30083A27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		958575362089F0A50083A27A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		958575392089F0A50083A27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9585753B2089F0A50083A27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9585753C2089F0A50083A27A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		958575422089F0A50083A27A /* YLPressEffectButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLPressEffectButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		958575462089F0A50083A27A /* YLPressEffectButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPressEffectButtonTests.m; sourceTree = "<group>"; };
+		958575482089F0A50083A27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9585754D2089F0A50083A27A /* YLPressEffectButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLPressEffectButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		958575512089F0A50083A27A /* YLPressEffectButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPressEffectButtonUITests.m; sourceTree = "<group>"; };
+		958575532089F0A50083A27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9585755F2089FB5D0083A27A /* myTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myTableViewCell.h; sourceTree = "<group>"; };
+		958575602089FB5D0083A27A /* myTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myTableViewCell.m; sourceTree = "<group>"; };
+		958575622089FFC30083A27A /* YLPressEffectButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLPressEffectButton.h; sourceTree = "<group>"; };
+		958575632089FFC30083A27A /* YLPressEffectButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPressEffectButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		958575272089F0A30083A27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9585753F2089F0A50083A27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9585754A2089F0A50083A27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		958575212089F0A30083A27A = {
+			isa = PBXGroup;
+			children = (
+				9585752C2089F0A30083A27A /* YLPressEffectButton */,
+				958575452089F0A50083A27A /* YLPressEffectButtonTests */,
+				958575502089F0A50083A27A /* YLPressEffectButtonUITests */,
+				9585752B2089F0A30083A27A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9585752B2089F0A30083A27A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9585752A2089F0A30083A27A /* YLPressEffectButton.app */,
+				958575422089F0A50083A27A /* YLPressEffectButtonTests.xctest */,
+				9585754D2089F0A50083A27A /* YLPressEffectButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9585752C2089F0A30083A27A /* YLPressEffectButton */ = {
+			isa = PBXGroup;
+			children = (
+				9585752D2089F0A30083A27A /* AppDelegate.h */,
+				9585752E2089F0A30083A27A /* AppDelegate.m */,
+				958575302089F0A30083A27A /* ViewController.h */,
+				958575312089F0A30083A27A /* ViewController.m */,
+				9585755F2089FB5D0083A27A /* myTableViewCell.h */,
+				958575602089FB5D0083A27A /* myTableViewCell.m */,
+				958575622089FFC30083A27A /* YLPressEffectButton.h */,
+				958575632089FFC30083A27A /* YLPressEffectButton.m */,
+				958575332089F0A30083A27A /* Main.storyboard */,
+				958575362089F0A50083A27A /* Assets.xcassets */,
+				958575382089F0A50083A27A /* LaunchScreen.storyboard */,
+				9585753B2089F0A50083A27A /* Info.plist */,
+				9585753C2089F0A50083A27A /* main.m */,
+			);
+			path = YLPressEffectButton;
+			sourceTree = "<group>";
+		};
+		958575452089F0A50083A27A /* YLPressEffectButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				958575462089F0A50083A27A /* YLPressEffectButtonTests.m */,
+				958575482089F0A50083A27A /* Info.plist */,
+			);
+			path = YLPressEffectButtonTests;
+			sourceTree = "<group>";
+		};
+		958575502089F0A50083A27A /* YLPressEffectButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				958575512089F0A50083A27A /* YLPressEffectButtonUITests.m */,
+				958575532089F0A50083A27A /* Info.plist */,
+			);
+			path = YLPressEffectButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		958575292089F0A30083A27A /* YLPressEffectButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958575562089F0A50083A27A /* Build configuration list for PBXNativeTarget "YLPressEffectButton" */;
+			buildPhases = (
+				958575262089F0A30083A27A /* Sources */,
+				958575272089F0A30083A27A /* Frameworks */,
+				958575282089F0A30083A27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLPressEffectButton;
+			productName = YLPressEffectButton;
+			productReference = 9585752A2089F0A30083A27A /* YLPressEffectButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		958575412089F0A50083A27A /* YLPressEffectButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958575592089F0A50083A27A /* Build configuration list for PBXNativeTarget "YLPressEffectButtonTests" */;
+			buildPhases = (
+				9585753E2089F0A50083A27A /* Sources */,
+				9585753F2089F0A50083A27A /* Frameworks */,
+				958575402089F0A50083A27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				958575442089F0A50083A27A /* PBXTargetDependency */,
+			);
+			name = YLPressEffectButtonTests;
+			productName = YLPressEffectButtonTests;
+			productReference = 958575422089F0A50083A27A /* YLPressEffectButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9585754C2089F0A50083A27A /* YLPressEffectButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9585755C2089F0A50083A27A /* Build configuration list for PBXNativeTarget "YLPressEffectButtonUITests" */;
+			buildPhases = (
+				958575492089F0A50083A27A /* Sources */,
+				9585754A2089F0A50083A27A /* Frameworks */,
+				9585754B2089F0A50083A27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9585754F2089F0A50083A27A /* PBXTargetDependency */,
+			);
+			name = YLPressEffectButtonUITests;
+			productName = YLPressEffectButtonUITests;
+			productReference = 9585754D2089F0A50083A27A /* YLPressEffectButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		958575222089F0A30083A27A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = csda_Chinadance;
+				TargetAttributes = {
+					958575292089F0A30083A27A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					958575412089F0A50083A27A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 958575292089F0A30083A27A;
+					};
+					9585754C2089F0A50083A27A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 958575292089F0A30083A27A;
+					};
+				};
+			};
+			buildConfigurationList = 958575252089F0A30083A27A /* Build configuration list for PBXProject "YLPressEffectButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 958575212089F0A30083A27A;
+			productRefGroup = 9585752B2089F0A30083A27A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				958575292089F0A30083A27A /* YLPressEffectButton */,
+				958575412089F0A50083A27A /* YLPressEffectButtonTests */,
+				9585754C2089F0A50083A27A /* YLPressEffectButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		958575282089F0A30083A27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9585753A2089F0A50083A27A /* LaunchScreen.storyboard in Resources */,
+				958575372089F0A50083A27A /* Assets.xcassets in Resources */,
+				958575352089F0A30083A27A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958575402089F0A50083A27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9585754B2089F0A50083A27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		958575262089F0A30083A27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958575322089F0A30083A27A /* ViewController.m in Sources */,
+				958575612089FB5D0083A27A /* myTableViewCell.m in Sources */,
+				9585753D2089F0A50083A27A /* main.m in Sources */,
+				9585752F2089F0A30083A27A /* AppDelegate.m in Sources */,
+				958575642089FFC30083A27A /* YLPressEffectButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9585753E2089F0A50083A27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958575472089F0A50083A27A /* YLPressEffectButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958575492089F0A50083A27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958575522089F0A50083A27A /* YLPressEffectButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		958575442089F0A50083A27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 958575292089F0A30083A27A /* YLPressEffectButton */;
+			targetProxy = 958575432089F0A50083A27A /* PBXContainerItemProxy */;
+		};
+		9585754F2089F0A50083A27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 958575292089F0A30083A27A /* YLPressEffectButton */;
+			targetProxy = 9585754E2089F0A50083A27A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		958575332089F0A30083A27A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958575342089F0A30083A27A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		958575382089F0A50083A27A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958575392089F0A50083A27A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		958575542089F0A50083A27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		958575552089F0A50083A27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		958575572089F0A50083A27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLPressEffectButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLPressEffectButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		958575582089F0A50083A27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLPressEffectButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLPressEffectButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9585755A2089F0A50083A27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLPressEffectButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLPressEffectButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLPressEffectButton.app/YLPressEffectButton";
+			};
+			name = Debug;
+		};
+		9585755B2089F0A50083A27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLPressEffectButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLPressEffectButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLPressEffectButton.app/YLPressEffectButton";
+			};
+			name = Release;
+		};
+		9585755D2089F0A50083A27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLPressEffectButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLPressEffectButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YLPressEffectButton;
+			};
+			name = Debug;
+		};
+		9585755E2089F0A50083A27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLPressEffectButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLPressEffectButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YLPressEffectButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		958575252089F0A30083A27A /* Build configuration list for PBXProject "YLPressEffectButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958575542089F0A50083A27A /* Debug */,
+				958575552089F0A50083A27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958575562089F0A50083A27A /* Build configuration list for PBXNativeTarget "YLPressEffectButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958575572089F0A50083A27A /* Debug */,
+				958575582089F0A50083A27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958575592089F0A50083A27A /* Build configuration list for PBXNativeTarget "YLPressEffectButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9585755A2089F0A50083A27A /* Debug */,
+				9585755B2089F0A50083A27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9585755C2089F0A50083A27A /* Build configuration list for PBXNativeTarget "YLPressEffectButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9585755D2089F0A50083A27A /* Debug */,
+				9585755E2089F0A50083A27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 958575222089F0A30083A27A /* Project object */;
+}
