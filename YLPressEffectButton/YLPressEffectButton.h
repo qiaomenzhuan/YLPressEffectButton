@@ -25,9 +25,25 @@ typedef YLPressEffectButton *(^YLPressBackgroundColorSelect)(UIColor *value);
 
 @property (nonatomic,weak) id<YLPressEffectButtonDelegate> delegate;
 
+
+/**
+ 按下效果展示时间 YlPressDuration(0.3f)
+ */
 @property (nonatomic,  copy) YLPressDuration              YlPressDuration;
+
+/**
+ 圆角
+ */
 @property (nonatomic,  copy) YLPressLayerCornerRadius     YlPressLayerCornerRadius;
+
+/**
+ 普通状态下的颜色 YlPressBackgroundColorNormal([UIcolor redColor])
+ */
 @property (nonatomic,  copy) YLPressBackgroundColorNormal YlPressBackgroundColorNormal;
+
+/**
+ 按下状态下的颜色 YlPressBackgroundColorSelect([UIcolor whiteColor])
+ */
 @property (nonatomic,  copy) YLPressBackgroundColorSelect YlPressBackgroundColorSelect;
 
 @property (nonatomic,strong) UIButton *button;
